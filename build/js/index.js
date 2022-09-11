@@ -8,20 +8,20 @@ const systemTheme = window.matchMedia("(prefers-color0scheme: dark)").matches;
 // Initial Theme Check
 const themeCheck = () => {
   if (userTheme === "dark" || (!userTheme && systemTheme)) {
-    document.documentElement.classList.add("as");
+    document.documentElement.classList.add("aT");
     return;
   }
 };
 
 // Manual Theme Switch
 const themeSwitch = () => {
-  if (document.documentElement.classList.contains("as")) {
-    document.documentElement.classList.remove("as");
+  if (document.documentElement.classList.contains("aT")) {
+    document.documentElement.classList.remove("aT");
     localStorage.setItem("theme", "light");
     return;
   }
 
-  document.documentElement.classList.add("as");
+  document.documentElement.classList.add("aT");
   localStorage.setItem("theme", "dark");
 };
 

@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .container {
-  @apply al sm:am[540px] md:am[720px] lg:am[960px] xl:am[1140px] 2xl:am[1320px];
+  @apply ad sm:ae[540px] md:ae[720px] lg:ae[960px] xl:ae[1140px] 2xl:ae[1320px];
 }

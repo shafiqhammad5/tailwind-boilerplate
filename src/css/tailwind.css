@@ -727,6 +727,10 @@ video {
   justify-content: center;
 }
 
+.ud-overflow-hidden {
+  overflow: hidden;
+}
+
 .ud-rounded {
   border-radius: 0.25rem;
 }
