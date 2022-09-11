@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  @apply ud-w-full sm:ud-max-w-[540px] md:ud-max-w-[720px] lg:ud-max-w-[960px] xl:ud-max-w-[1140px] 2xl:ud-max-w-[1320px];
+}

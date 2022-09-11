@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" class="ud-light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind CSS Boilerplate</title>
+
+    <link rel="stylesheet" href="css/tailwind.css" />
+  </head>
+  <body
+    class="ud-relative ud-z-10 ud-flex ud-min-h-screen ud-items-center ud-justify-center ud-bg-white dark:ud-bg-slate-800"
+  >
+    <!-- ======= Header Start ======= -->
+    <!-- <header></header> -->
+    <!-- ======= Header End ======= -->
+
+    <!-- ======= Main Start ======= -->
+    <main>
+      <!-- ======= Hero Start ======= -->
+      <section class="ud-py-24">
+        <div class="ud-container">
+          <div class="ud-mx-auto ud-w-full ud-max-w-[970px] ud-text-center">
+            <h1
+              class="ud-mb-5 ud-text-4xl ud-font-bold ud-text-black dark:ud-text-white"
+            >
+              Production Ready Tailwind Boilerplate Template.
+            </h1>
+
+            <p
+              class="ud-mb-8 ud-text-base ud-leading-relaxed ud-text-gray-600 dark:ud-text-gray-300"
+            >
+              This a production ready boilerplate template for creating Tailwind
+              CSS Templates. We setup gulp-minify-cssnames for minifying css
+              class names to protect our code. Also setup themeSwitcher
+              functionality for theme switching with storing data in
+              localstorage.
+            </p>
+            <a
+              href="#"
+              class="ud-inline-block ud-rounded-md ud-bg-gray-900 ud-py-3 ud-px-10 ud-text-base ud-font-medium ud-text-white hover:ud-bg-opacity-90 dark:ud-bg-white dark:ud-text-gray-900 dark:hover:ud-bg-opacity-90"
+            >
+              Download Code
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- ======= Hero End ======= -->
+    </main>
+    <!-- ======= Main End ======= -->
+
+    <!-- ======= Theme Switcher Start ======= -->
+    <div
+      class="ud-fixed ud-top-1/2 ud-right-8 ud-inline-flex ud--translate-y-1/2"
+    >
+      <label
+        for="themeSwitcher"
+        class="ud-inline-flex ud-w-10 ud-cursor-pointer ud-items-center ud-rounded ud-bg-white ud-p-1 ud-shadow"
+      >
+        <input
+          type="checkbox"
+          name="themeSwitcher"
+          id="themeSwitcher"
+          class="ud-sr-only"
+        />
+        <span
+          class="ud-block ud-h-4 ud-w-4 ud-rounded ud-bg-purple-500 dark:ud-translate-x-4"
+        ></span>
+      </label>
+    </div>
+    <!-- ======= Theme Switcher End ======= -->
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
